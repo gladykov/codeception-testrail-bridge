@@ -1,0 +1,10 @@
+[API]
+URL = https://project.testrail.io/index.php?/api/v2/
+# Username and password stored in Jenkins, inject as TESTRAIL_USERNAME and TESTRAIL_PASSWORD
+
+[paths]
+xml_file = ../output/report.xml
+project = TestRail Project
+automation_section = Automated Tests Section
+default_type = Automated
+test_run_name = %s Jenkins test run on %s using %s group
